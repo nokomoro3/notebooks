@@ -1,0 +1,19 @@
+version: '2.3'
+services:
+  jupyterlab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ../../notebooks:/app/notebooks
+    ports:
+      - 8888:8888
+      - 6006:6006
+    runtime: nvidia
+    restart: always
+    tty: true
+    networks:
+      - jupyterlab-network
+networks:
+  jupyterlab-network:
+    external: false
