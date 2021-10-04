@@ -11,7 +11,7 @@
 - 以下にも公開している。
   - https://jovian.ai/nokomoro3/collections/pytorch-tutorial
 
-## 環境構築方法
+## 環境構築方法(Windows)
 
 - pyenv + poetry(global)で構築する方法を示す。
 - 参考
