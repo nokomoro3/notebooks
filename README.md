@@ -41,6 +41,11 @@ Poetry version 1.1.10
 > poetry config virtualenvs.create false
 ```
 
+- 適当なフォルダでpoetry initしておく。
+```
+> poetry init
+```
+
 ### pyenvインストール
 
 - python3.8でしかうまく動かない部分があるため、pyenvを使って、3.8を使う。
